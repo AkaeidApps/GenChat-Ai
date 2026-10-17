@@ -1,0 +1,25 @@
+<svg width="64" height="64" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="favGradient" x1="15%" y1="10%" x2="85%" y2="90%">
+      <stop offset="0%" stop-color="#00E5FF" />
+      <stop offset="30%" stop-color="#0091FF" />
+      <stop offset="70%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#C026D3" />
+    </linearGradient>
+    <linearGradient id="favSparkle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F472B6" />
+      <stop offset="100%" stop-color="#A855F7" />
+    </linearGradient>
+  </defs>
+  <path
+    d="M 68 22 C 56 12, 38 13, 26 23 C 13 35, 12 53, 19 67 L 14 77 C 13 79, 15 81, 17 80 L 28 76 C 35 83, 46 86, 56 85 C 72 83, 85 70, 85 53 C 85 45, 80 40, 74 40 C 68 40, 64 45, 64 51 C 64 61, 56 68, 47 68 C 37 68, 29 60, 29 50 C 29 38, 38 30, 50 30 C 56 30, 62 33, 67 38 C 70 41, 75 41, 78 38 C 81 35, 80 30, 77 27 Z"
+    fill="url(#favGradient)"
+  />
+  <circle cx="50" cy="49" r="18" fill="#0B0F19" />
+  <g stroke="#00F0FF" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M 40 47 Q 44.5 42 49 47" />
+    <path d="M 52 47 Q 56.5 42 61 47" />
+  </g>
+  <path d="M 83 20 Q 83 25 87 25 Q 83 25 83 30 Q 83 25 79 25 Q 83 25 83 20 Z" fill="url(#favSparkle)" />
+  <path d="M 89 31 Q 89 34 91.5 34 Q 89 34 89 37 Q 89 34 86.5 34 Q 89 34 89 31 Z" fill="url(#favSparkle)" opacity="0.9" />
+</svg>

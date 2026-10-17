@@ -1,0 +1,8 @@
+{
+  "name": "GenChat",
+  "description": "GenChat is a next-generation AI assistant built for deep thinking, complex problem-solving, coding, data analysis, and creative work.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

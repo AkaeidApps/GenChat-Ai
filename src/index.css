@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-page: #fbfbfa;
+    --bg-sidebar: #f5f4ef;
+    --bg-card: #ffffff;
+    --bg-card-hover: #f3f2ee;
+    --border-color: rgba(0, 0, 0, 0.08);
+    --border-strong: rgba(0, 0, 0, 0.16);
+    --text-primary: #1e1e1d;
+    --text-secondary: #5e5c57;
+    --text-muted: #8b8881;
+    --accent-clay: #d97757;
+    --accent-clay-hover: #c86849;
+    --accent-clay-subtle: rgba(217, 119, 87, 0.12);
+  }
+
+  .dark {
+    --bg-page: #1a1917;
+    --bg-sidebar: #141413;
+    --bg-card: #252422;
+    --bg-card-hover: #2e2c29;
+    --border-color: rgba(255, 255, 255, 0.08);
+    --border-strong: rgba(255, 255, 255, 0.16);
+    --text-primary: #ecebe8;
+    --text-secondary: #a8a69e;
+    --text-muted: #72706a;
+    --accent-clay: #d97757;
+    --accent-clay-hover: #e28769;
+    --accent-clay-subtle: rgba(217, 119, 87, 0.18);
+  }
+
+  body {
+    background-color: var(--bg-page);
+    color: var(--text-primary);
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  .font-serif-claude {
+    font-family: 'Lora', Georgia, serif;
+  }
+
+  .font-mono-code {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom scrollbar for Claude-like feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(140, 137, 130, 0.25);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(140, 137, 130, 0.45);
+}
+
+/* Highlight.js styling for dark & light */
+pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1rem;
+  background: transparent;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-subst {
+  color: #d97757;
+  font-weight: 500;
+}
+
+.hljs-string,
+.hljs-title,
+.hljs-section,
+.hljs-attribute,
+.hljs-literal,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-type,
+.hljs-addition {
+  color: #98c379;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion,
+.hljs-meta {
+  color: #75746e;
+  font-style: italic;
+}
+
+.hljs-number,
+.hljs-regexp,
+.hljs-link {
+  color: #e5c07b;
+}
+
+.hljs-variable,
+.hljs-params {
+  color: #61afef;
+}
